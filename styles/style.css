@@ -54,6 +54,58 @@ body{
     width: 620px;
     height: 700px;
 }
+/* --------------------------------------------------------------
+---------------For Mobile Responsive Media Query ----------------------------
+----------------------------------------------------------------*/
+@media screen and (max-width:688px){
+    .header-part{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        background-color: #161616;
+        color:white;
+        margin-left:20px;
+        margin-right:20px;
+        margin-top:44px ;
+        border-radius: 30px;
+    }
+    .header-part:hover{
+        background-color: #232020;;
+    }
+    .header-title h1{
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .header-sub-title p{
+        font-size: 14px;
+        font-style: 'Poppins', sans-serif;
+    }
+    .header-sub-title{
+        margin-top: -20px;
+    }
+    
+    .header-hyper{
+        margin-bottom: 70px;
+        margin-top: 50px;
+    }
+    .header-hyper a{
+        text-decoration: none;
+        color: white;
+        background-color: #e55353;
+        padding: 8px 12px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+    .header-hyper:hover a{
+        background-color: #DD0000;
+    }
+    .header-photo img{
+        width: 233px;
+        height: 245px;
+}
+    
+}
 /*-----------------------------------------------------------------
 -------------------End Header Part Style----------------------------
 ---------------------------------------------------------------------*/
