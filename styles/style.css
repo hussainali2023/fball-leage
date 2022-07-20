@@ -1,12 +1,12 @@
 /*-------------------------------------------
 --------------------- google fonts----------- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 body{
     background-color: white;
-    font-family: 'Poppins', sans-serif;
-
 }
+/*----------------------------------------------------
+----------------------Header Part Style Start----------
+-------------------------------------------------------*/
 .header-part{
     display: flex;
     justify-content: center;
@@ -20,22 +20,209 @@ body{
     padding-top: 33px;
     border-radius: 30px;
 }
-.header-title{
+.header-part:hover{
+    background-color: #232020;;
+}
+.header-title h1{
     font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.header-sub-title p{
+    font-size: 16px;
+    font-style: 'Poppins', sans-serif;
 }
 .header-sub-title{
-    font-size: 16px;
-    font-weight: 400;
+    margin-top: -20px;
 }
+
 .header-hyper{
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.header-hyper a{
     text-decoration: none;
     color: white;
+    background-color: #e55353;
+    padding: 14px 25px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+}
+.header-hyper:hover a{
     background-color: #DD0000;
-    padding: 16px 25px;
-    position: absolute;
-    border-radius: 5px;
 }
 .header-photo img{
-    width: 581px;
-    height: 613px;
+    width: 620px;
+    height: 700px;
+}
+/*-----------------------------------------------------------------
+-------------------End Header Part Style----------------------------
+---------------------------------------------------------------------*/
+.sub-container{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #161616;
+    flex-direction: column;
+    height: 312px;
+    width: 312px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.matches{
+    background-color: #ffffff;
+    color: black;
+    width: 252px;
+    height: 64px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.matches a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.matches:hover{
+    background-color: #ff0000;
+}
+.matches:hover a{
+    color: white;
+}
+.groups{
+    background-color: #ffffff;
+    color: black;
+    width: 252px;
+    height: 64px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    align-content: center;
+}
+.groups a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.blogs{
+    background-color: #fc0000;
+    color: #ffffff;
+    width: 252px;
+    height: 64px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.blogs a{
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 16px;
+    margin-top: 130px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.match-group-blog{
+    grid-column: 1/2;
+}
+.player1{
+    grid-column: 2/3;
+    
+}
+.player2{
+    grid-column: 3/4;
+}
+.player3{
+    grid-column: 4/5;
+}
+.player4{
+    grid-column: 2/3;
+}
+.player5{
+    grid-column: 3/4;
+}
+.player6{
+    grid-column: 4/5;
+}
+.player7{
+    grid-column: 2/3;
+}
+.player8{
+    grid-column: 3/4;
+}
+.player9{
+    grid-column: 4/5;
+}
+.common{
+    border: 1px solid rgb(219, 215, 215);
+    border-radius: 15px;
+    
+}
+.player-details{
+    margin: 10px;
+
+}
+.player-transfer{
+background-color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 3px 8px;
+
+}
+.time-comment{
+    font-size: 1.1em;
+    color: #605a5a;
+
+}
+footer{
+    background-color: #161616;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.goal{
+    color: white;
+    font-size: 40px;
+    padding-top: 130px;
+
+}
+hr{
+    width: 1320px;
+    color: #a49797;
+}
+.footer-details {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+    margin: 50px 300px;
+    font-size: 16px;
+    color: #B9B9B9;
+}
+.social-link{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 20px;
+    margin-left: 650px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.creator{
+    padding-bottom: 100px;
 }
