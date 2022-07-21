@@ -279,6 +279,14 @@ hr{
     font-size: 16px;
     color: #B9B9B9;
 }
+.social-link{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    font-size: 30px;
 }
 
 /*--------------------------------------------------------------
